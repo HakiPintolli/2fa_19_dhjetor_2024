@@ -1,0 +1,33 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_margin="10dp"
+        android:layout_width="381dp"
+        android:layout_height="65dp"
+        android:background="#E0DCDC"
+        android:hint="OTP Code"
+        android:textSize="20dp"></EditText>
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="381dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Verify"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/resend"
+        android:layout_width="381dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Resend code"
+        android:textSize="20dp"></Button>
+</LinearLayout>
